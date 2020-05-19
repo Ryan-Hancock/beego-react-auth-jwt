@@ -29,7 +29,7 @@ type AuthResponse struct {
 }
 
 type LoginRequest struct {
-	Username string `json:"useranme"`
+	Username string `json:"username"`
 	Password string `json:"password"`
 }
 
