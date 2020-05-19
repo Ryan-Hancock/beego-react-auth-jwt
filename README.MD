@@ -5,12 +5,11 @@ Implementation of an auth flow using Beego (go) and React.
 ## Set up 
 
 For db connection change the string to what you want in `models/storage.go`  
-Once you have the desired db, you can use 
+Once you have the desired db, you can use the command below to create the user table.
 ```bash
 go build main.go  
 ./main orm syncdb -db=default -force=false  
 ```
-to create the user table. 
 
 Make sure you have Beego installed 
 ```bash
