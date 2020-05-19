@@ -78,3 +78,4 @@ refresh: `/auth/refresh`
 1. Dockerise for easy deployment or use beego to statically serve the frontend.  
 2. Form validate and flesh out of frontend.
 3. Configuration improvments for beego.
+4. Use validate and refresh within React.
