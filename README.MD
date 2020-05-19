@@ -5,12 +5,11 @@ Implementation of an auth flow using Beego (go) and React.
 ## Set up 
 
 For db connection change the string to what you want in `models/storage.go`  
-Once you have the desired db, you can use 
+Once you have the desired db, you can use the command below to create the user table.
 ```bash
 go build main.go  
 ./main orm syncdb -db=default -force=false  
 ```
-to create the user table. 
 
 Make sure you have Beego installed 
 ```bash
@@ -79,3 +78,4 @@ refresh: `/auth/refresh`
 1. Dockerise for easy deployment or use beego to statically serve the frontend.  
 2. Form validate and flesh out of frontend.
 3. Configuration improvments for beego.
+4. Use validate and refresh within React.
